@@ -1,0 +1,183 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+:root{
+    --background1: #15133C;
+    --background2:#413F66;
+    --textAndMore:#EC994B;
+    --radius :15px;
+    --titles: 32px;
+    --text:20px;
+    --phrase:40px;
+
+}
+.title{
+font-size: var(--titles);
+}
+.text{
+font-size: var(--text);
+color:#F1EEE9;
+}
+.phrase{
+    font-size: var(--phrase);
+}
+.colorTitle{
+    color:#F1EEE9 ;
+}
+
+/*  Header */
+.header{
+    max-height: 100px;
+    height: 100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+    background-color: var(--background1);
+    
+}
+.logoHeader{
+    margin: 0 0 0 16px;
+}
+.animes{
+    display: flex;
+   
+}
+.headerText{
+    color: var(--textAndMore) ;
+    padding: 0 16px 0 0;
+    font-size: var(--titles);
+    text-decoration: none;
+}
+ .svg{
+     margin: 0 16px 0 0;
+ }
+
+/* Description */
+
+.containerDescription{
+    background-color: var(--background2);
+    max-height: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerDChild1{
+    background-color: var(--textAndMore);
+    padding: 30px;
+    border-radius: var(--radius);
+}
+.containerDChild2{
+    background-color: var(--background2);
+    border-radius: var(--radius);
+    display: flex;
+
+}
+
+.containerTextDescription{
+
+    max-width: 492px;
+    width: 492px;
+}
+
+.imgDescription{
+    border-bottom-right-radius: var(--radius);
+    border-top-right-radius: var(--radius);
+}
+.textDescription{
+    color: #F1EEE9;
+    padding: 16px;
+}
+
+/* Naruto */
+
+.containerAnimes{
+    max-height: 500px;
+    height: 500px;
+    background-color: var(--background2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.containerCards{
+    display: flex;
+    gap: 146px;
+    text-align: center;
+}
+.containerTitle{
+    text-align: center;
+    margin: 16px 0 95px 0;
+}
+.imgRadius{
+ border-radius: var(--radius);
+}
+
+/* phrase */
+
+.containerPhrase{
+    max-height: 500px;
+    height: 500px;
+    background-color: var(--background1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phrase{
+    color: var(--textAndMore);
+}
+
+.phraseWidth{
+    font-weight: 100;
+}
+.phraseWidth2{
+    font-weight: bold;
+}
+
+.textEnd{
+    text-align: end;
+}
+
+/* AD */
+
+.containerAd{
+    max-height: 400px;
+    height: 400px;
+    background-color: var(--background2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.ad{
+    background-color: var(--background1);
+    padding: 100px;
+    border-radius: var(--radius);
+}
+.adText{
+    color:#F1EEE9 ;
+    font-size: 24px;
+}
+
+.adLink{
+    
+   color: var(--textAndMore);
+}
+
+/* footer */
+
+.footer{
+    max-height: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background1);
+}
+.textFooter{
+    color:#F1EEE9 ;
+}
