@@ -20,6 +20,7 @@ font-size: var(--titles);
 .text{
 font-size: var(--text);
 color:#F1EEE9;
+margin: 16px 0 0 0;
 }
 .phrase{
     font-size: var(--phrase);
@@ -93,7 +94,7 @@ color:#F1EEE9;
     padding: 16px;
 }
 
-/* Naruto */
+/* Animes */
 
 .containerAnimes{
     max-height: 500px;
@@ -115,8 +116,43 @@ color:#F1EEE9;
 }
 .imgRadius{
  border-radius: var(--radius);
+ outline-width: 17px;
+ outline-style: solid;
+ 
+ 
 }
 
+.nar{
+    outline-color: #EC994B;
+}
+.narS{
+    outline-color: #EC994B;
+}
+
+.sas{
+    outline-color: #13396C;
+}
+.sasS{
+    outline-color: #7138E9;
+}
+.sak{
+    outline-color: #EBB8BE;
+}
+.sakS{
+    outline-color: #EBB8BE;
+}
+
+.bor{
+    outline-color: #DB5A8F;
+}
+
+.mit{
+    outline-color: #67A3DA;
+}
+
+.sar{
+    outline-color: #963750;
+}
 /* phrase */
 
 .containerPhrase{
